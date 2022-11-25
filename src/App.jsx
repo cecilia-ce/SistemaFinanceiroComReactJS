@@ -1,11 +1,13 @@
 import React from 'react';
-import Header from './components/header';
+import Header from './components/Header';
+import Resume from './components/Resume';
 import GlobalStyle from './style/global';
 
 const App = () => {
   return (
     <>
       <Header />
+      <Resume />
       <GlobalStyle />
     </>
 
