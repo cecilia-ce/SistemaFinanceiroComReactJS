@@ -5,7 +5,7 @@ export const Container = styled.div`
   margin: 20px auto;
   width: 98%;
   background-color: #fff;
-  box-shadow: 0px 0px 5px #ccc;
+  box-shadow: 0px 0px 10px #ccc;
   border-radius: 5px;
   display: flex;
   justify-content: space-around;
@@ -45,11 +45,12 @@ export const RadioGroup = styled.div`
 `;
 
 export const Button = styled.button`
-  padding: 10px 10px;
+  padding: 5px 25px 5px 25px;
   margin-left: 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   color: white;
-  background-color: teal;
+  background-color: black;
+  
 `;
